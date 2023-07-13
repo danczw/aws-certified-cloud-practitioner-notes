@@ -26,7 +26,7 @@
 - [5. Security](#5-security)
 - [6. Monitoring and Analytics](#6-monitoring-and-analytics)
 - [7. Pricing and Support](#7-pricing-and-support)
-- [8. Additional Resources](#8-additional-resources)
+- [8. Migration and Innovation](#8-migration-and-innovation)
 
 <br>
 
