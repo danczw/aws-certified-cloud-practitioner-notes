@@ -15,8 +15,8 @@
 - [Whitepaper: Overview of AWS Services (pdf) (awsstatic.com)](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
 
 **Exam Prep Documents**
-- [Exam Guide - AWS Cloud Practitioner (pdf)](assets\files\AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
-- [Exam Sample Questions - AWS Cloud Practitioner (pdf)](assets\files\AWS-Certified-Cloud-Practitioner_Sample-Questions.pdf)
+- [Exam Guide - AWS Cloud Practitioner (pdf)](assets/files/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
+- [Exam Sample Questions - AWS Cloud Practitioner (pdf)](assets/files/AWS-Certified-Cloud-Practitioner_Sample-Questions.pdf)
 
 **Table of Contents**
 - [1. Compute in the Cloud](#1-compute-in-the-cloud)
@@ -38,11 +38,11 @@
 ## **1. Compute in the Cloud**
 
 ### Notes
-- [1.1: Cloud Computing](notes\1.1_Cloud_Computing.md)
-- [1.2: EC2](notes\1.1_Cloud_Computing.md)
-- [1.3: Elastic Load Balancing](notes\1.3_Elastic_Load_Balancing.md)
-- [1.4: SNS and SQS](notes\1.4_SNS_and_SQS.md)
-- [1.5: Additional Compute Services](notes\1.5_Additional_Compute_Services.md)
+- [1.1: Cloud Computing](notes/1.1_Cloud_Computing.md)
+- [1.2: EC2](notes/1.1_Cloud_Computing.md)
+- [1.3: Elastic Load Balancing](notes/1.3_Elastic_Load_Balancing.md)
+- [1.4: SNS and SQS](notes/1.4_SNS_and_SQS.md)
+- [1.5: Additional Compute Services](notes/1.5_Additional_Compute_Services.md)
 
 ### Compute Summary
 > - **cloud computing**: on-demand delivery of IT resources over the internet with pay-as-you-go pricing
@@ -89,9 +89,9 @@
 ## **2. Global Infrastructure and Reliability**
 
 ### Notes
-- [2.1: Global Infrastructure](notes\2.1_Global_Infrastructure.md)
-- [2.2: Edge Locations](notes\2.2_Edge_Locations.md)
-- [2.3: Resource Provisioning](notes\2.3_Resource_Provisioning.md)
+- [2.1: Global Infrastructure](notes/2.1_Global_Infrastructure.md)
+- [2.2: Edge Locations](notes/2.2_Edge_Locations.md)
+- [2.3: Resource Provisioning](notes/2.3_Resource_Provisioning.md)
 
 ### Global Infrastructure Summary
 > - **Regions**: geographically isolated areas, where services needed can be accessesd
@@ -119,9 +119,9 @@
 ## **3. Networking**
 
 ### Notes
-- [3.1: Connectivity to AWS](notes\3.1_Connectivity_to_AWS.md)
-- [3.2: Subnets and ACLs](notes\3.2_Subnets_and_ACLs.md)
-- [3.3: Global Networking](notes\3.3_Global_Networking.md)
+- [3.1: Connectivity to AWS](notes/3.1_Connectivity_to_AWS.md)
+- [3.2: Subnets and ACLs](notes/3.2_Subnets_and_ACLs.md)
+- [3.3: Global Networking](notes/3.3_Global_Networking.md)
 
 ### Networking Summary
 
@@ -151,13 +151,13 @@
 ## **4. Storage and Databases**
 
 ### Notes
-- [4.1: Instance Stores and Amazon EBS](notes\4.1_Instance_Stores_and_Amazon_EBS.md)
-- [4.2: Simple Storage Service S3](notes\4.2_Simple_Storage_Service_S3.md)
-- [4.3: Elastic File System EFS](notes\4.3_Elastic_File_System_EFS.md)
-- [4.4: Relational Database RDS](notes\4.4_Relational_Database_RDS.md)
-- [4.5: DynamoDB](notes\4.5_DynamoDB.md)
-- [4.6: Redshift](notes\4.6_Redshift.md)
-- [4.7: Database Migration Service](notes\4.7_Database_Migration_Service.md)
+- [4.1: Instance Stores and Amazon EBS](notes/4.1_Instance_Stores_and_Amazon_EBS.md)
+- [4.2: Simple Storage Service S3](notes/4.2_Simple_Storage_Service_S3.md)
+- [4.3: Elastic File System EFS](notes/4.3_Elastic_File_System_EFS.md)
+- [4.4: Relational Database RDS](notes/4.4_Relational_Database_RDS.md)
+- [4.5: DynamoDB](notes/4.5_DynamoDB.md)
+- [4.6: Redshift](notes/4.6_Redshift.md)
+- [4.7: Database Migration Service](notes/4.7_Database_Migration_Service.md)
 
 ### Storage and Databases Summary
 > - **Elastic Block Store**: local non-ephemeral storage for EC2 instances
@@ -197,12 +197,12 @@
 ## **5. Security**
 
 ### Notes
-- [5.1: Shared Responsibility Model in AWS](notes\5.1_Shared_Responsibility_Model_in_AWS.md)
-- [5.2: User Permission and Access](notes\5.2_User_Permission_and_Access.md)
-- [5.3: AWS Organizations](notes\5.3_Organizations.md)
-- [5.4: Compliance](notes\5.4_Compliance.md)
-- [5.5: Denial-of-service Attacks in AWS](notes\5.5_Denial-of-service_Attacks_in_AWS.md)
-- [5.6: Additional Security Services](notes\5.6_Additional_Security_Services.md)
+- [5.1: Shared Responsibility Model in AWS](notes/5.1_Shared_Responsibility_Model_in_AWS.md)
+- [5.2: User Permission and Access](notes/5.2_User_Permission_and_Access.md)
+- [5.3: AWS Organizations](notes/5.3_Organizations.md)
+- [5.4: Compliance](notes/5.4_Compliance.md)
+- [5.5: Denial-of-service Attacks in AWS](notes/5.5_Denial-of-service_Attacks_in_AWS.md)
+- [5.6: Additional Security Services](notes/5.6_Additional_Security_Services.md)
 
 ### Security Summary
 > - AWS follows a **shared responsibility model**
@@ -248,9 +248,9 @@
 ## **6. Monitoring and Analytics**
 
 ### Notes
-- [6.1: CloudWatch](notes\6.1_CloudWatch.md)
-- [6.2: CloudTrail](notes\6.2_CloudTrail.md)
-- [6.3: Trusted Advisor](notes\6.3_Trusted_Advisor.md)
+- [6.1: CloudWatch](notes/6.1_CloudWatch.md)
+- [6.2: CloudTrail](notes/6.2_CloudTrail.md)
+- [6.3: Trusted Advisor](notes/6.3_Trusted_Advisor.md)
 
 ### Monitoring and Analytics Summary
 > - **CloudWatch** can provide near real-time understanding of how systems are behaving, including being alerted to conditions that require attention 
@@ -277,7 +277,7 @@
 ## **7. Pricing and Support**
 
 ### Notes
-- [7.1: Pricing and Support](notes\7.1_Pricing_and_Support.md)
+- [7.1: Pricing and Support](notes/7.1_Pricing_and_Support.md)
 
 ### Pricing and Support Summary
 > - Pay-as-you-go nature of using AWS cloud resources
@@ -312,10 +312,10 @@
 ## **8. Migration and Innovation**
 
 ### Notes
-- [8.1: Cloud Adoption Framework CAF](notes\8.1_Cloud_Adoption_Framework_CAF.md)
-- [8.2: Cloud Migration Strategies](notes\8.2_Cloud_Migration_Strategies.md)
-- [8.3: Innovation with AWS](notes\8.3_Innovation_with_AWS.md)
-- [8.4: Well-Architected Framework](notes\8.4_Well_Architected_Framework.md)
+- [8.1: Cloud Adoption Framework CAF](notes/8.1_Cloud_Adoption_Framework_CAF.md)
+- [8.2: Cloud Migration Strategies](notes/8.2_Cloud_Migration_Strategies.md)
+- [8.3: Innovation with AWS](notes/8.3_Innovation_with_AWS.md)
+- [8.4: Well-Architected Framework](notes/8.4_Well_Architected_Framework.md)
 
 ##### Migration and Innovation Summary
 > - **AWS Cloud Adoption Framework** gives guidance on who to loop into a cloud migration, what their roles are, and the sorts of things that they should be focused on
