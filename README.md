@@ -37,14 +37,14 @@
 
 ## **1. Compute in the Cloud**
 
-### Notes
+### 📑 Notes
 - [1.1: Cloud Computing](notes/1.1_Cloud_Computing.md)
 - [1.2: EC2](notes/1.1_Cloud_Computing.md)
 - [1.3: Elastic Load Balancing](notes/1.3_Elastic_Load_Balancing.md)
 - [1.4: SNS and SQS](notes/1.4_SNS_and_SQS.md)
 - [1.5: Additional Compute Services](notes/1.5_Additional_Compute_Services.md)
 
-### Compute Summary
+### 💎 Compute Summary
 > - **cloud computing**: on-demand delivery of IT resources over the internet with pay-as-you-go pricing
 >
 > - **EC2**: dynamically spin up and spin down virtual servers called EC2 instances, when launching an EC2 instance, you choose the instance family. The instance family determines the hardware the instance runs on
@@ -71,7 +71,7 @@
 >
 > - **AWS Lambda**: allows to upload code, and configure it to run based on triggers - get charged for when the code is actually running (No containers, no virtual machines. Just code and configuration) 
 
-### Additional Resources
+### 🔗 Additional Resources
 - [Compute on AWS (aws.amazon.com)](https://aws.amazon.com/products/compute)
 - [AWS Compute Blog (aws.amazon.com)](https://aws.amazon.com/blogs/compute/)
 - [AWS Compute Services (docs.aws.amazon.com)](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html)
@@ -88,19 +88,19 @@
 
 ## **2. Global Infrastructure and Reliability**
 
-### Notes
+### 📑 Notes
 - [2.1: Global Infrastructure](notes/2.1_Global_Infrastructure.md)
 - [2.2: Edge Locations](notes/2.2_Edge_Locations.md)
 - [2.3: Resource Provisioning](notes/2.3_Resource_Provisioning.md)
 
-### Global Infrastructure Summary
+### 💎 Global Infrastructure Summary
 > - **Regions**: geographically isolated areas, where services needed can be accessesd
 >
 > - **Availability Zones**: allow to run across physically separated buildings, tens of miles of separation within a region, while keeping the application logically unified -> Availability Zones help to solve high availability and disaster recovery scenarios, without any additional effort
 >
 > - **AWS Edge locations**: run *Amazon CloudFront* to help get content closer to customers, no matter where they are in the world
 
-### Additional Resources
+### 🔗 Additional Resources
 
 - [Global Infrastructure (aws.amazon.com)](https://aws.amazon.com/about-aws/global-infrastructure/)
 - [Interactive map of the AWS Global Infrastructure (infrastructure.aws)](https://www.infrastructure.aws/)
@@ -118,12 +118,12 @@
 
 ## **3. Networking**
 
-### Notes
+### 📑 Notes
 - [3.1: Connectivity to AWS](notes/3.1_Connectivity_to_AWS.md)
 - [3.2: Subnets and ACLs](notes/3.2_Subnets_and_ACLs.md)
 - [3.3: Global Networking](notes/3.3_Global_Networking.md)
 
-### Networking Summary
+### 💎 Networking Summary
 
 > - **Amazon Virtual Private Cloud (VPC)**: isolate workloads in AWS
 >
@@ -133,7 +133,7 @@
 >
 > - **Global Networking**: use *Route 53* for DNS and cache content closer to consumers via CloudFront
 
-### Additional Resources
+### 🔗 Additional Resources
 
 - [Networking and Content Delivery on AWS (aws.amazon.com)](https://aws.amazon.com/products/networking)
 - [AWS Networking & Content Delivery Blog (aws.amazon.com)](https://aws.amazon.com/blogs/networking-and-content-delivery/)
@@ -150,7 +150,7 @@
 
 ## **4. Storage and Databases**
 
-### Notes
+### 📑 Notes
 - [4.1: Instance Stores and Amazon EBS](notes/4.1_Instance_Stores_and_Amazon_EBS.md)
 - [4.2: Simple Storage Service S3](notes/4.2_Simple_Storage_Service_S3.md)
 - [4.3: Elastic File System EFS](notes/4.3_Elastic_File_System_EFS.md)
@@ -159,7 +159,7 @@
 - [4.6: Redshift](notes/4.6_Redshift.md)
 - [4.7: Database Migration Service](notes/4.7_Database_Migration_Service.md)
 
-### Storage and Databases Summary
+### 💎 Storage and Databases Summary
 > - **Elastic Block Store**: local non-ephemeral storage for EC2 instances
 >
 > - **S3**: storing objects in AWS
@@ -176,7 +176,7 @@
 >
 > - **Caching**: ElastiCach and DynamoDB Accelerator to increase speed via caching
 
-### Additional Resources
+### 🔗 Additional Resources
 - [Cloud Storage on AWS (aws.amazon.com)](https://aws.amazon.com/products/storage)
 - [AWS Storage Blog (aws.amazon.com)](https://aws.amazon.com/blogs/storage/)
 - [Hands-On Tutorials: Storage (aws.amazon.com)](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23storage&awsf.getting-started-content-type=content-type%23hands-on)
@@ -196,7 +196,7 @@
 
 ## **5. Security**
 
-### Notes
+### 📑 Notes
 - [5.1: Shared Responsibility Model in AWS](notes/5.1_Shared_Responsibility_Model_in_AWS.md)
 - [5.2: User Permission and Access](notes/5.2_User_Permission_and_Access.md)
 - [5.3: AWS Organizations](notes/5.3_Organizations.md)
@@ -204,7 +204,7 @@
 - [5.5: Denial-of-service Attacks in AWS](notes/5.5_Denial-of-service_Attacks_in_AWS.md)
 - [5.6: Additional Security Services](notes/5.6_Additional_Security_Services.md)
 
-### Security Summary
+### 💎 Security Summary
 > - AWS follows a **shared responsibility model**
 >
 > - AWS is responsible for **security of the cloud**, while customer is responsible for **security in the cloud**
@@ -229,7 +229,7 @@
 >
 > - pay attention to **encryption**, in transit and at rest.
 
-### Additional Resources
+### 🔗 Additional Resources
 - [Security, Identity, and Compliance on AWS (aws.amazon.com)](https://aws.amazon.com/products/security)
 - [Whitepaper: Introduction to AWS Security (docs.aws.amazon.com)](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/welcome.html)
 - [Know the AWS shared Resposnsibility Model (docs.aws.amazon.com)](https://docs.aws.amazon.com/whitepapers/latest/aws-security-best-practices/know-the-aws-shared-responsibility-model.html)
@@ -247,19 +247,19 @@
 
 ## **6. Monitoring and Analytics**
 
-### Notes
+### 📑 Notes
 - [6.1: CloudWatch](notes/6.1_CloudWatch.md)
 - [6.2: CloudTrail](notes/6.2_CloudTrail.md)
 - [6.3: Trusted Advisor](notes/6.3_Trusted_Advisor.md)
 
-### Monitoring and Analytics Summary
+### 💎 Monitoring and Analytics Summary
 > - **CloudWatch** can provide near real-time understanding of how systems are behaving, including being alerted to conditions that require attention 
 >
 > - **CloudTrail** can help to know exactly who did what, when, and from where
 >
 > - **Trusted Advisor** compiles a quick dashboard of over 40 common concerns around cost, performance, security, and resilience
 
-### Additional Resources
+### 🔗 Additional Resources
 
 - [Management and Governance on AWS (aws.amazon.com)](https://aws.amazon.com/products/management-tools)
 - [Monitoring and Observability (aws.amazon.com)](https://aws.amazon.com/products/management-tools/use-cases/monitoring-and-observability/)
@@ -276,10 +276,10 @@
 
 ## **7. Pricing and Support**
 
-### Notes
+### 📑 Notes
 - [7.1: Pricing and Support](notes/7.1_Pricing_and_Support.md)
 
-### Pricing and Support Summary
+### 💎 Pricing and Support Summary
 > - Pay-as-you-go nature of using AWS cloud resources
 >
 > - Three types of **pricing offers** included in the AWS Free Tier: 12 months free, Always free, and Trials
@@ -292,7 +292,7 @@
 >
 > - How to discover software in **AWS Marketplace**
 
-### Additional Resources
+### 🔗 Additional Resources
 
 - [AWS Pricing (aws.amazon.com)](https://aws.amazon.com/pricing)
 - [AWS Free Tier (aws.amazon.com)](https://aws.amazon.com/free)
@@ -311,13 +311,13 @@
 
 ## **8. Migration and Innovation**
 
-### Notes
+### 📑 Notes
 - [8.1: Cloud Adoption Framework CAF](notes/8.1_Cloud_Adoption_Framework_CAF.md)
 - [8.2: Cloud Migration Strategies](notes/8.2_Cloud_Migration_Strategies.md)
 - [8.3: Innovation with AWS](notes/8.3_Innovation_with_AWS.md)
 - [8.4: Well-Architected Framework](notes/8.4_Well_Architected_Framework.md)
 
-##### Migration and Innovation Summary
+##### 💎 Migration and Innovation Summary
 > - **AWS Cloud Adoption Framework** gives guidance on who to loop into a cloud migration, what their roles are, and the sorts of things that they should be focused on
 >
 > - there's the **Business**, **People**, and **Governance Perspectives** for nontechnical planning, and the **Platform**, **Security**, and **Operations Perspectives** for technical planning
@@ -330,7 +330,7 @@
 >
 > - 6 **advantages of cloud computing**: trade upfront expense for variable expense, benefit from massive economies of scale, stop guessing capacity, increase speed and agility, stop spending money running and maintaining data centers, go global in minutes.
 
-### Additional Resources
+### 🔗 Additional Resources
 
 - [Migration & Transfer on AWS (aws.amazon.com)](https://aws.amazon.com/products/migration-and-transfer)
 - [A Process for Mass Migrations to the Cloud (aws.amazon.com)](https://aws.amazon.com/blogs/enterprise-strategy/214-2/)
